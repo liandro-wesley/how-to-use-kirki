@@ -1,0 +1,222 @@
+/*------------------------------------*\
+  POST STYLE
+\*------------------------------------*/
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  width: 100%;
+}
+
+main section.blog {
+  max-width: 100%;
+  width: 100%;
+}
+
+main section.blog .blog__wrap {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  max-width: 100%;
+  width: 100%;
+}
+
+main section.blog .blog__line .blog__content-read {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  max-width: 100%;
+  width: 1400px;
+  margin: 0 auto;
+  padding: 60px 0px 15px 0px;
+}
+
+main section.blog .blog__line article.posts {
+  background-color: #fff;
+  border: 1px solid #e1e8ed;
+  border-radius: 5px;
+  max-width: 600px;
+  width: 100%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+main section.blog .blog__line article.posts .posts__author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+main section.blog .blog__line article.posts .posts__author .posts__author-avatar {
+  border: none;
+  border-radius: 2px;
+  margin-right: 20px;
+  padding: 3px;
+  background-color: #e1e8ed;
+}
+
+main section.blog .blog__line article.posts .posts__author .posts__author-avatar img {
+  border-radius: 2px;
+  position: relative;
+  max-width: 100%;
+}
+
+main section.blog .blog__line article.posts .posts__author .posts__author-name {
+  border: none;
+}
+
+main section.blog .blog__line article.posts .posts__author .posts__author-name a {
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+main section.blog .blog__line article.posts .posts__details {
+  border-bottom: 1px;
+  border-color: #e1e8ed;
+  border-style: solid;
+  padding: 0px 0px 5px 0px;
+}
+
+
+main section.blog .blog__line article.posts .posts__details .posts__details-category p {
+
+  margin-bottom: 15px;
+}
+
+main section.blog .blog__line article.posts .posts__details .posts__details-category a {
+  font-weight: 500;
+  background-color: #F3F5F7;
+  color: #444444;
+  padding: 5px;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+main section.blog .blog__line article.posts .posts__details .posts__details-category a:hover {
+  background-color: #2764F1;
+  color: #fff;
+}
+
+main section.blog .blog__line article.posts .posts__details .posts__details-date p {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #7c7c7c;
+  margin-bottom: 10px;
+}
+
+main section.blog .blog__line article.posts .posts__details .posts__details-tags p {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  font-size: 14px;
+  color: #7c7c7c;
+  margin-bottom: 10px;
+}
+
+main section.blog .blog__line article.posts .posts__details .posts__details-tags a {
+  color: #7c7c7c;
+}
+
+main section.blog .blog__line article.posts .posts__content {
+  padding: 15px 0px 15px 0px;
+}
+
+main section.blog .blog__line article.posts .posts__content .posts__content-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+main section.blog .blog__line article.posts .posts__content .posts__content-text {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+
+}
+
+/*------------------------------------*\
+  POST STYLE >> PAGINATION
+\*------------------------------------*/
+
+main section.blog .blog__line .blog__content-pagination {
+  padding: 0px 0px 15px 0px;
+}
+
+main section.blog .blog__line .blog__content-pagination nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main section.blog .blog__line .blog__content-pagination nav .nav-links {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: content-box;
+}
+
+main section.blog .blog__line .blog__content-pagination nav h2 {
+  display: none;
+}
+
+main section.blog .blog__line .blog__content-pagination nav .nav-links .page-numbers {
+  text-decoration: none;
+  margin-right: 10px;
+  color: #333333;
+  font-size: 16px;
+  transition: all .3s;
+}
+
+main section.blog .blog__line .blog__content-pagination nav .nav-links .page-numbers:hover {
+  color: #2764F1;
+  padding: 6px 10px;
+  border: 1px solid #2764F1;
+  border-radius: 100%;
+}
+
+main section.blog .blog__line .blog__content-pagination nav .nav-links a.next:hover,
+main section.blog .blog__line .blog__content-pagination nav .nav-links a.prev:hover {
+  border-radius: initial;
+  border: none;
+  padding: 0px;
+  color: #2764F1;
+  font-size: 20px;
+}
+
+main section.blog .blog__line .blog__content-pagination nav .nav-links .current,
+main section.blog .blog__line .blog__content-pagination nav .nav-links .current:hover {
+  color: #fff;
+  padding: 6px 10px;
+  border: 1px solid #2764F1;
+  background-color: #2764F1;
+  border-radius: 100%;
+}
+
+/*------------------------------------*\
+  POST STYLE >> MEDIA QUERIES
+\*------------------------------------*/
+
+@media screen and (max-width: 768px) {
+  main section.blog .blog__line .blog__content-read {
+    padding: 30px 15px 30px 15px;
+  }
+
+  main section.blog .blog__line article.posts {
+    margin-right: 0;
+  }
+}
