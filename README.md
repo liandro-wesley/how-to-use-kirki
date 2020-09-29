@@ -1,3 +1,11 @@
+ <h3 align="center">
+  <a href="README.en.md">English</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="README.md">Português</a>
+</h3>
+
+<br>
+<br>
+ 
  # 🌎 **Live Preview**: [click here](https://how-to-use-kirki.000webhostapp.com)
 
 
@@ -14,3 +22,13 @@
 * Navigate to `panel > Appearance > Customize`
 
 * You can see the settings implemented in the panel `Estilos do temas`
+
+
+## :memo: Licence
+
+This project is under MIT licence. See the archive [LICENSE](LICENSE) to more details.
+
+
+---
+
+Made with 💙 by Liandro Wesley :wave: [Contact Me!](https://www.linkedin.com/in/liandrowesley/)
