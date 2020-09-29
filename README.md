@@ -1,7 +1,7 @@
  # 🌎 **Live Preview**: [click here](https://how-to-use-kirki.000webhostapp.com)
 
 
-<p align="center"><img src="https://raw.githubusercontent.com/liandro-wesley/how-to-use-kirki/master/template_5.png" /> </p>
+<p align="center"><img src="https://github.com/liandro-wesley/how-to-use-kirki/blob/master/template_5.png" /> </p>
 
 # 📜 instructions for use
 
