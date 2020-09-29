@@ -1,6 +1,6 @@
  <h3 align="center">
-  <a href="README.en.md">English</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="README.md">Português</a>
+  <a href="README.md">English</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="README.pt.md">Português</a>
 </h3>
 
 <br>
