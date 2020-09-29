@@ -1,6 +1,6 @@
 <footer>
   <section class="footer">
-    <div class="footer__wrap">
+    <div class="footer__wrap color-primary">
       <div class="footer__line">
         <div class="footer__line footer__line-left">
            <p>By Liandro Wesley | Orgulhosamento desenvolvido com WordPress</p>

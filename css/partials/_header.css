@@ -27,15 +27,7 @@ header article.head__line {
   padding: 30px 0px 30px 0px;
 }
 
-header article.head__line h1 {
-  font-size: 36px;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 75px;
-  text-align: center;
-  margin-bottom: 15px;
-  width: 100%;
-  color: #fff;
-}
+
 
 header article.head__line img {
   width: 200px;

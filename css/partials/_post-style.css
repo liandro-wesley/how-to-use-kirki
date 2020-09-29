@@ -130,18 +130,10 @@ main section.blog .blog__line article.posts .posts__content {
 }
 
 main section.blog .blog__line article.posts .posts__content .posts__content-title {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 30px;
   margin-bottom: 10px;
 }
 
-main section.blog .blog__line article.posts .posts__content .posts__content-text {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 24px;
 
-}
 
 /*------------------------------------*\
   POST STYLE >> PAGINATION
@@ -185,7 +177,9 @@ main section.blog .blog__line .blog__content-pagination nav .nav-links .page-num
 main section.blog .blog__line .blog__content-pagination nav .nav-links .page-numbers:hover {
   color: #2764F1;
   padding: 6px 10px;
-  border: 1px solid #2764F1;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #2764F1;
   border-radius: 100%;
 }
 
