@@ -9,7 +9,7 @@
   </head>
   <body <?= body_class(); ?>>
     <header>
-      <section class="head__wrap">
+      <section class="head__wrap color-primary">
         <article class="head__line">
           <h1><?= bloginfo('description'); ?></h1>
           <a href="https://kirki.org/" target="_blank"><img src="https://kirki.org/wp-content/uploads/2020/04/kirki-logo-white-1.png" alt="O Kirki Customizer Framework"></a>
