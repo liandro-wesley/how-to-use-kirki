@@ -5,7 +5,7 @@
 
 # 📜 instructions for use
 
-* Install WordPress [Visit the official website](www.wordpress.org)
+* Install WordPress [Visit the official website](https://wordpress.org)
 
 * Clone this repository in the `your_theme/wp-content/themes`
 
